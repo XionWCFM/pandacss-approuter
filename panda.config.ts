@@ -12,24 +12,6 @@ export default defineConfig({
 
   // Useful for theme customization
   theme: {
-    tokens: {
-      colors: {
-        red: { value: '#EE0F0F' },
-      },
-    },
-    semanticTokens: {
-      colors: {
-        danger: {
-          value: {
-            base: '{colors.red}',
-            _dark: 'green.700',
-          },
-        }, 
-        bg: {
-          DEFAULT: { value: '{colors.gray.100}' },
-        },
-      },
-    },
     extend: {},
   },
 
