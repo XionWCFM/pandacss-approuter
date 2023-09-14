@@ -27,7 +27,7 @@ const AsyncItem = ({ categoryItem }: AsyncItemProps) => {
   return (
     <div>
       {categoryItem}
-      {data.title}
+      {data?.title}
     </div>
   );
 };
