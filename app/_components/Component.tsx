@@ -19,6 +19,9 @@ const Component = ({}: ComponentProps) => {
             _hover: {
               bg: 'red.300',
             },
+            '&:hover': {
+              color: 'red.200',
+            },
           })}
           key={item}
         >
