@@ -1,1 +1,12 @@
 @layer reset, base, tokens, recipes, utilities;
+
+.content::-webkit-scrollbar-thumb {
+  /* background: linear-gradient(to right, #4568dc, #b06ab3); */
+  background-color: #4568dc !important;
+  border-radius: 10px !important;
+  /* 스크롤바 둥글게 설정    */
+}
+
+.content::-webkit-scrollbar {
+  background-color: white;
+}
