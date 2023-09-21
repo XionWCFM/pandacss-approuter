@@ -8,5 +8,5 @@
 }
 
 .content::-webkit-scrollbar {
-  background-color: white;
+  background-color: inherit;
 }
